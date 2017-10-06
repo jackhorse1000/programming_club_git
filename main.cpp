@@ -1,5 +1,7 @@
-init main()
+#include <iostream>
+int main()
 {
-  std::cout << "Hello, World!";
+  int a = 2;
+  std::cout << "Hello, World!" << a;
   return 0;
 }
